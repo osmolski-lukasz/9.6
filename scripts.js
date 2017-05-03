@@ -4,5 +4,5 @@ var number = document.getElementsByTagName ('li');
 
 
 add.addEventListener('click', function() {
-    list.innerHTML += '<li>item</li>' + number.length;
+    list.innerHTML += '<li>Item ' + number.length + '</li>';
 });
